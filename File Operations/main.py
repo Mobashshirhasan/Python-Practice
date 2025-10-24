@@ -28,5 +28,5 @@
 
 
 
-with open('myfile.txt', 'a') as f:
-    f.write("hey i am inside your file")
+with open('myfile.txt', 'a') as f:      #you can use with statement to automatically close the file after you are done with it.
+    f.write(" hey i am inside your file")
